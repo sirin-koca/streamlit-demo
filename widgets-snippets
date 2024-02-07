@@ -12,3 +12,29 @@ for i in range(100):
     time.sleep(0.01)
 
 '...and now we\'re done!'
+
+# Sidebar slider
+# Add a slider to the sidebar:
+add_slider = st.sidebar.slider(
+    'Select a range of values',
+    0.0, 100.0, (25.0, 75.0)
+)
+
+# DataFrame in pandas
+
+    # Pandas df
+    st.write("My first attempt at using data to create a table:")
+    df = pd.DataFrame({
+        'first column': [1, 2, 3, 4],
+        'second column': [10, 20, 30, 40],
+        'third column': [5, 6, 7, 8]
+    })
+    df
+    ###########
+    # st.write("My first attempt at using data to create a table:")
+    # st.write(pd.DataFrame({
+    #     'first column': [1, 2, 3, 4],
+    #     'second column': [10, 20, 30, 40],
+    #     'third column': [5, 6, 7, 8]
+    # }))
+

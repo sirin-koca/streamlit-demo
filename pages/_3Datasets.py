@@ -1,9 +1,21 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+import streamlit as st
+import pandas as pd
+import numpy as np
+import time
 
-import sys
+# Set page config
+st.set_page_config(
+    page_title="Ex-stream-ly Cool App",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://streamlit.io',
+        'About': "# This is an *extremely* cool app!"
+    })
 
-if __name__ == '__main__':
-    # Your code here
 
-    sys.exit()
+# Page header - with Markdown syntax inside a multiline command
+"""
+# Dashboard
+"""
