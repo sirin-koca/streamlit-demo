@@ -1,2 +1,6 @@
-from datetime import date, timedelta
-import streamlit.components.v1 as components
+import streamlit as st
+
+
+def app():
+    st.title('Contact')
+    st.write('This is the Contact page.')

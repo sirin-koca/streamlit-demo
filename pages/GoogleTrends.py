@@ -2,22 +2,11 @@ import streamlit as st
 from datetime import date, timedelta
 import streamlit.components.v1 as components
 
-# Set page config
-st.set_page_config(
-    page_title="Ex-stream-ly Cool App",
-    page_icon="🧊",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'Get Help': 'https://streamlit.io',
-        'About': "# This is an *extremely* cool app!"
-    })
 
+def app():
+    st.title('AI on GoogleTrends')
+    st.write('AI on GoogleTrends')
 
-# Page header - with Markdown syntax inside a multiline command
-"""
-# Google Trends
-"""
 
 # Example list of AI topics
 ai_topics = ['AI',

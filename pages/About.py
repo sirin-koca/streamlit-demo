@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+import streamlit as st
 
-import sys
 
-if __name__ == '__main__':
-    # Your code here
-
-    sys.exit()
+def app():
+    st.title('About This App')
+    st.write('This is the About page.')

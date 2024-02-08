@@ -38,3 +38,9 @@ add_slider = st.sidebar.slider(
     #     'third column': [5, 6, 7, 8]
     # }))
 
+# Using Markdown
+
+# Page header - with Markdown syntax inside a multiline command
+"""
+# Dashboard
+"""

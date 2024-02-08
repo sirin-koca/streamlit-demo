@@ -1,7 +1,6 @@
 # import necessary libraries
 import streamlit as st
-import Dashboard as pd
-import numpy as np
+from pages import Dashboard as pd
 import plotly.express as px
 
 # Setting the title and layout of the app
