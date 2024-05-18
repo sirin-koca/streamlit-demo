@@ -1,4 +1,30 @@
-Yes, I understand. Let's present the information in a more academic and diplomatic style.
+
+
+
+
+
+
+
+---
+
+### User Manual
+
+#### Running the Application
+
+To run the application locally, Streamlit provides a convenient localhost environment. Follow these steps:
+
+1. Open your terminal.
+2. Navigate to the directory containing the application files.
+3. Execute the following command:
+   ```
+   streamlit run Home.py
+   ```
+   
+This command will start the Streamlit server and launch the application on your local machine. You can access it by opening a web browser and navigating to `http://localhost:8501`.
+
+---
+
+
 
 ### Lessons Learned
 Throughout the course of this project, we encountered several significant challenges that provided valuable learning experiences. One major challenge was handling the large dataset, which included around 9,000 records in the AI topic list. This caused performance issues, particularly with the sunburst chart visualization. From this, we learned the importance of optimizing data handling and considering performance implications early in the development process.
